@@ -28,7 +28,7 @@ export default {
 	props:['number_of_questions', 'out_of'],
 	computed: {
 		gradeRange: function() {
-			return _.range(0, (this.number_of_questions + 1));
+			return _.range(0, (this.number_of_questions + 1), 0.5);
 		}
 	},
 	methods: {
