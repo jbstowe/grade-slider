@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "vue": "^2.0.1",
+    "underscore": "1.8.3",
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
